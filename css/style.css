@@ -1,0 +1,140 @@
+/* ----- FUENTES ----- */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* ----- PROPIEDADES GENERALES ----- */
+:root{
+    --color-dark: #101010;
+    --color-light: white;
+    --color-light2: whitesmoke;
+    --color-secundary: #143642;
+}
+html{
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: var(--color-dark) url("/images/pexels-tima-miroshnichenko-5380603.jpg") top right / auto 100vh no-repeat;
+}
+.cursor{
+    position: fixed;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background: white;
+    /* transition: 0.1s; */
+    transform: translate(-50%,-50%);
+    pointer-events: none; 
+    mix-blend-mode: difference;
+    z-index: 3;
+}
+/* ----- BARRA DE NAVEGACION ----- */
+h1,.navbar-brand{
+    font-family: 'Bebas Neue', cursive;  
+}
+.navbar-brand{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    letter-spacing: 0.15rem;
+}
+.navbar .navbar-nav .nav-link{
+    text-transform: uppercase;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+/* ----- SECCIONES GENERAL ----- */
+#contact h2,#contact h5,#contact i,#about h2{
+    color: var(--color-light);
+}
+/* ----- SECCION MAIN ----- */
+#main{
+    padding-top: 10.625rem;
+    padding-bottom: 10.625rem;
+}
+#main h1{
+    margin: 0 0 1rem 0;
+    display: inline-block;
+    color:var(--color-light);
+    font-size: 6.5rem;
+    font-weight: 800;
+    line-height: 0.9;
+    letter-spacing: 0.50rem;    
+}
+#main p{
+    letter-spacing: 0.1rem;
+    color:var(--color-light2);
+    max-width: 40rem;
+}
+a{
+    color: var(--color-light);
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+a:hover{
+    color: var(--color-dark);
+}
+.btn{
+    padding: 1rem 2.6rem;
+    border-width: 0.125rem;
+    border-radius: 6.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+/* ----- SECCION ABOUT ----- */
+#about .card-header,#about .card-text{ 
+    color: var(--color-light);
+}
+#about .card{
+    background-color: rgba(255,255,255,0.04);
+    border: 0.1rem solid var(--color-light);
+}
+#about .card:hover{
+    box-shadow: 0.1rem -0.1rem 0.1rem grey;
+    background-color: rgba(255,255,255,0.06);
+} 
+#about .card:hover .card-header{
+    text-shadow: 0.05rem -0.05rem 0.05rem grey;
+}    
+#about .card-header{
+    border-bottom: 0.02rem solid var(--color-light);
+}
+#about .card-header,#about h2{
+    font-family: 'Bebas Neue', cursive;  
+}
+#about .card-header{
+    font-size: 1.5rem;  
+}
+#about h2{
+    font-size: 2rem
+}
+/* ----- SECCION CONTACT ----- */
+#contact a{
+    font-size: 1.5rem;
+}
+#contact .border{
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid var(--color-light);
+}
+#contact .border:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+/* ----- MEDIA QUERYS ----- */
+@media (min-width:1200px){
+    #main,#about,#contact{
+        min-height: 100vh;
+    }
+}
+
+@media (max-width:992px){
+    .navbar{
+        background-color: var(--color-dark);
+    }
+}
+
+
