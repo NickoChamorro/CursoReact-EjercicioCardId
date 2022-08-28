@@ -1,6 +1,6 @@
 # CursoReact-EjercicioCardId
 
-Ejercicio del curso de Full Stack React.
+Ejercicio del curso React JS.
 
 Práctica inicial HTML CSS BOOTSTRAP
 
