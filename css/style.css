@@ -16,7 +16,7 @@ html{
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    background: var(--color-dark) url("images/pexels-tima-miroshnichenko-5380603.jpg") top right / auto 100vh no-repeat;
+    background: var(--color-dark) url("/images/pexels-tima-miroshnichenko-5380603.jpg") top right / auto 100vh no-repeat;
 }
 .cursor{
     position: fixed;
