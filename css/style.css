@@ -90,11 +90,11 @@ a:hover{
     color: var(--color-light);
 }
 #about .card{
-    background-color: rgba(255,255,255,0.04);
-    border: 0.1rem solid var(--color-light);
+    background-color: rgba(255,255,255,0.01);
+    /* border: 0.1rem solid var(--color-light); */
 }
 #about .card:hover{
-    box-shadow: 0.1rem -0.1rem 0.1rem grey;
+    /* box-shadow: 0.1rem -0.1rem 0.1rem grey; */
     background-color: rgba(255,255,255,0.06);
 } 
 #about .card:hover .card-header{
