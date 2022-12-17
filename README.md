@@ -12,3 +12,5 @@ Una ID CARD WEB es una tarjeta de identidad, similar a un CV, donde figuran
 los datos personales básicos y algunas preferencias o habilidades de la
 persona. En este caso desarrollaremos una id de presentación formal para ir
 practicando las cosas que saben.
+
+Ver publicación: <a href="https://nickochamorro.github.io/CursoReact-EjercicioCardId/">Página CardId</a>
